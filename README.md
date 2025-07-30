@@ -1,0 +1,1 @@
+# Dealership Assessment App\n\nPrototype repository.
