@@ -1,7 +1,32 @@
-   "devDependencies": {
--    "tailwindcss": "^3.5.0",
-+    "tailwindcss": "^3.4.4",
-     "postcss": "^8.4.35",
-     "autoprefixer": "^10.4.18",
-     ...
-   }
+{
+  "name": "dealership-assessment-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "node -e \"console.log('build step skipped')\"",
+    "preview": "node -e \"console.log('preview not available')\"",
+    "server": "node server/index.js",
+    "test": "node -e \"console.log('no tests implemented')\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.8.0",
+    "framer-motion": "^10.16.4",
+    "jspdf": "^2.5.0",
+    "xlsx": "^0.18.5",
+    "lucide-react": "^0.328.0",
+    "express": "^4.18.2",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.5.2",
+    "vite": "^5.0.9",
+    "tailwindcss": "^3.4.4",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.18"
+  }
+}
